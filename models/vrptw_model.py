@@ -17,7 +17,7 @@ def build_gurobi_vrptw_model(
     relax: bool = True,
     name: str = "VRPTW",
     time_limit: Optional[float] = None,
-    output_flag: int = 0,
+    output_flag: int = 1,
 ):
     """
     Xây dựng mô hình VRPTW bằng Gurobi.
